@@ -1,0 +1,81 @@
+header{
+    border: 2px solid black;
+}
+
+
+
+h1
+{
+	margin-left: 150px;
+	margin-top: 25px;
+	padding:10px;
+	font-family: 'Georgia';
+	font-weight: bold;
+}
+
+hr
+{
+	border-width: 3px;
+	border-style:inset;
+	display: block;
+	width: 85%;
+    margin-top: 0.1em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: 'red';
+}
+
+img
+{
+	margin-left: 150px;
+	float: left;
+	padding:30px;
+	height:190px;
+	width:280px; 
+}
+
+.rotate90
+{
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 0px;
+    margin-right:150px;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:'Serif';
+    font-size:18px;
+}
+
+
+li a:hover {
+    background-color: #e5f9ff;
+}
+
+.projectList {
+	margin-top: 50px;
+	margin-left: 100px;
+}
+
+.contact {
+	margin: 50px;
+}
