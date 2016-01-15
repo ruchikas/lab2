@@ -5,37 +5,46 @@
 	<meta charset="utf-8">
 	<title>HCI Project Portfolio</title>
 	<link rel="stylesheet" type = "text/css" href ="css/style.css"> 
+	<link rel="stylesheet" type= "text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type= "text/css" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type= "text/css" href="css/introHCI.css">
 </head>
 
+
 <body>
+	<div class="container">
 	<!-- this is a comment in HTML -->
-	<h1>RUCHIKA SHIVASWAMY</h1> <!-- h1 through h5 are headers. The higher the number, the smaller the header -->
-	<ul>
-		
-		<li> <a href = "contact.html"> Contact me </a> </li>
-		<li> <a href = "projects.html"> Projects </a> </li>
-		<li> <a href= "index.html"> Home </a> </li>
-		
-	</ul>
-	<hr></hr>
+	<div class="jumbotron" id="header">
+		<h1>RUCHIKA SHIVASWAMY</h1> <!-- h1 through h5 are headers. The higher the number, the smaller the header -->
+		<ul>
+			
+			<li> <a href = "contact.html" class="thumbnail"> Contact me </a> </li>
+			<li> <a href = "projects.html" class="thumbnail"> Projects </a> </li>
+			<li> <a href= "index.html" class="thumbnail"> Home </a> </li>
+
+		</ul>
+	</div>
 	<!-- p means paragraph -->
 	<p class="projectList">
-		<b>E-WAT: Ember Web Accessibility Tool, Undergraduate Thesis (NITK)</b> <span><i>Aug 2014 – Apr 2015</i></span>
+		<ol>
+		<li><b>E-WAT: Ember Web Accessibility Tool, Undergraduate Thesis (NITK)</b> <span><i>Aug 2014 – Apr 2015</i></span>
 		<br>
 		Software application that evaluates the accessibility of a website according to the accessibility guidelines set by the W3C, and outputs a more accessible version of the same website. 
 		<br>
 		Python based application, Scrapy framework for web crawler, Python NLTK for NLP
-		<br/><br/>
-		<b>Ember: A smartphone web browser interface for the blind, NITK</b> <span><i>Jan 2014 – Apr 2014</i></span>
+		<br/><br/></li>
+		<li><b>Ember: A smartphone web browser interface for the blind, NITK</b> <span><i>Jan 2014 – Apr 2014</i></span>
 		<br>
 		Designed a Smartphone web browser interface (on the Android platform) which is intuitive to a blind user and integrated it with a Braille keypad that enables the blind to type using their knowledge of Braille
-		<br/><br/>
-		<b>Google Scholar Metrics Data Visualization, NITK</b> <span><i>Jan 2014 – Apr 2014</i></span>
+		<br/><br/></li>
+		<li><b>Google Scholar Metrics Data Visualization, NITK</b> <span><i>Jan 2014 – Apr 2014</i></span>
 		<br>
 		Dynamic data visualization that aims to help users analyze the google scholar metrics dataset by representing multiple metrics like h-index, i10 index, number of citations, field of study and year
 		<br>
 		JavaScript library d3.js
-		<br/><br/>
+		<br/><br/></li>
+	</ol>
 	</p>
+</div>
 </body>
 </html>
